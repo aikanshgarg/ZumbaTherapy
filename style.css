@@ -21,11 +21,16 @@ body::-webkit-scrollbar-thumb {
 
 #title {
 	font-weight: bolder;
-	color: #C3DD34;
+	color: white;
 	font-size: 40px;
 	line-height: 32px;
 	margin-top: 20px;
-	text-shadow: 0px 0px 0.5px black;
+	text-shadow: 0px 0px 3px black;
+}
+#title:hover {
+	transform: scale(1.1,1.1); 
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
 }
 /*-------------------------------------------------------------*/
 .navbar-light .navbar-toggler {
@@ -175,6 +180,7 @@ body::-webkit-scrollbar-thumb {
 	width: 100%;
 	margin: 0;
 	padding: 15px;
+	opacity: 0.8;
 }
 
 .fa {
@@ -184,14 +190,22 @@ body::-webkit-scrollbar-thumb {
 	padding-top: 15px;
 }
 .fa:hover {
-	color: #C3DD34;
+	color: black;
 	text-decoration: none;
+	transform: scale(1.5,1.5); 
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
 }
 
 /*-------------------------------------------------------------*/
 .watch-video {
 	border: 9px solid white;
 	margin-bottom: 15%;
+}
+.video {
+	background-color: white;
+	color: #E34A52;
+	font-size: 30px;
 }
 /*-------------------------------------------------------------*/
 .spacing {
