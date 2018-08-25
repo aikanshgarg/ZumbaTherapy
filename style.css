@@ -19,8 +19,6 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
-
-
 #title {
 	font-weight: bolder;
 	color: #C3DD34;
@@ -99,7 +97,7 @@ body::-webkit-scrollbar-thumb {
 }
 #quotes {
 	color: #C3DD34;
-	font-size: 32px;
+	font-size: 25px;
 	/*font-weight: bold;*/
 	font-family: lobster, sans-serif;
 }
@@ -107,6 +105,7 @@ body::-webkit-scrollbar-thumb {
 	/*font: normal normal normal 15px/1.4em verdana,geneva,sans-serif;*/
 	font-size: 22px;
 	font-family: lobster, sans-serif;
+	line-height: 22px;
 }
 
 .partition {
@@ -161,6 +160,34 @@ body::-webkit-scrollbar-thumb {
 	font-size: 20px;
 	/*font-family: "anton", serif;*/
 }
+/*-------------------------------------------------------------*/
+.stay {
+	color: #E34A52;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 0;
+	padding-top: 15px;
+}
+.icons {
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	padding: 15px;
+}
+
+.fa {
+	color: #E34A52;
+	font-size: 25px;
+	text-decoration: none;
+	padding-top: 15px;
+}
+.fa:hover {
+	color: #C3DD34;
+	text-decoration: none;
+}
+
 /*-------------------------------------------------------------*/
 .watch-video {
 	border: 9px solid white;
