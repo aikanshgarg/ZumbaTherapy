@@ -130,7 +130,7 @@ body::-webkit-scrollbar-thumb {
 	color: #E34A52;
 	font: normal normal normal 18px/1.4em verdana,geneva,sans-serif;
 	background-color: white;
-	padding: 3px;
+	padding: 5px;
 	cursor: pointer;
 }
 .btn-primary {
@@ -151,13 +151,15 @@ body::-webkit-scrollbar-thumb {
 
 .modal-header {
 	background-color: black;
+}
+#exampleModalLongTitle {
 	color: white;
 	font-size: 24px;
 	font-family: lobster, sans-serif;
-	line-height: 22px;
 }
 #glow {
 	color: #E34A52;
+	font-size: 24px;
 }
 .close {
 	color: white;
@@ -165,18 +167,21 @@ body::-webkit-scrollbar-thumb {
 .close:hover {
 	color: #E34A52;
 }
-.bg{
-	background-image: url('about.png');
-	background-size: contain;
-	height: 500px;
-	width: 100%;
-	margin-left: 0px;
+.modal-bg {
+	background-color: black;
+	padding-left: 0;
+	padding-right: 0;
 }
-.container-fluid {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.modal-backdrop{
+    opacity: 0.96 !important;
+    background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
+
 .name-image {
 	margin-top: 12px;
 }
@@ -204,6 +209,12 @@ body::-webkit-scrollbar-thumb {
 	font-size: 20px;
 	/*font-family: "anton", serif;*/
 }
+#link-blink {
+	background: transparent;
+    color: #F2F2F2;
+}
+
+
 /*-------------------------------------------------------------*/
 .stay {
 	color: #E34A52;
