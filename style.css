@@ -126,17 +126,56 @@ body::-webkit-scrollbar-thumb {
 	font-style: italic;
 }
 
-#read-more {
+.btn {
 	color: #E34A52;
 	font: normal normal normal 18px/1.4em verdana,geneva,sans-serif;
 	background-color: white;
-	padding: 5px;
-	padding-right: 25px;
+	padding: 3px;
 	cursor: pointer;
 }
-#read-more:hover {
+.btn-primary {
+	border:none;
+}
+.btn:focus{
+	box-shadow: none;
+	border:none;
+}
+.btn:hover {
 	color: white;
 	background-color: #E34A52;
+}
+
+.modal {
+	color: black;
+}
+
+.modal-header {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	font-family: lobster, sans-serif;
+	line-height: 22px;
+}
+#glow {
+	color: #E34A52;
+}
+.close {
+	color: white;
+} 
+.close:hover {
+	color: #E34A52;
+}
+.bg{
+	background-image: url('about.png');
+	background-size: contain;
+	height: 500px;
+	width: 100%;
+	margin-left: 0px;
+}
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .name-image {
 	margin-top: 12px;
