@@ -25,9 +25,6 @@
 <div class="container">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"> <h4 class="down">Home</h4> <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="#"> <h4 class="down">About</h4> </a>
       </li>
@@ -127,7 +124,30 @@
   </div>
   <div class="row">
     <div class="col">
-      <a><span id="read-more">Read More</span> </a>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Read More
+</button>
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">You see sweat. <span id="glow">I see a sexy glow.</span> </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body modal-bg">
+        <img src="about.png" class="container">
+        <img src="about.png" class="container">
+        <img src="about.png" class="container">
+      </div>
+    </div>
+  </div>
+</div>
+
+
     </div>
   </div>
   <div class="row partition name-image">
@@ -150,9 +170,37 @@
 Bachelorette Parties <br>
 and more</h1>
     </div>
+
+
     <div class="col-3 spacing blinker">
-      	<img src="blink.gif" height="100px;" width="30px;">
+		<button type="button" class="btn btn-primary" id="link-blink" data-toggle="modal" data-target="#exampleModalLong">
+		  <img src="blink.gif" height="100px;" width="30px;">
+		</button>
     </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Don't just stand there.<span id="glow"> Bust a move.</span></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-bg">
+        <img src="classes.png" class="container">
+        <img src="classes.png" class="container">
+        <img src="classes.png" class="container">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
   </div>
 </div>
 <!------------WATCH JACKY IN ACTION---------------------- --------------------------------------------------------->
@@ -162,14 +210,8 @@ and more</h1>
       <h1 id="head" class="jacky">WATCH JACKY <br> IN ACTION!</h1>
     </div>
   </div>
-  <div class="row partition">
-    <!--   <iframe width="320" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen" style="width: 100%;">
-      </iframe> -->
-      <iframe height="345" src="https://www.youtube.com/embed/HRkNfdlm5Qs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width: 100%;"></iframe>
+  <div class="row partition video">
+      <iframe height="345" src="https://www.youtube.com/embed/HRkNfdlm5Qs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width: 100%" alt="some video here, please refresh page! :)"></iframe>
   </div>
 </div>
 
@@ -177,7 +219,25 @@ and more</h1>
 
 
 <!------------SOCIAL ICONS---------------------- --------------------------------------------------------->
-
+<!-- <div class="container icons"> -->
+  <div class="row icons">
+    <div class="col-4 stay">
+      Stay in touch: 
+    </div>
+    <div class="col-2">
+      <a href="#" class="fa fa-facebook"></a>
+    </div>
+    <div class="col-2">
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+    <div class="col-2">
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="col-2">
+      <a href="#" class="fa fa-snapchat"></a>
+    </div>
+  </div>
+<!-- </div> -->
 <!------------------------------------------------------- --------------------------------------------------------->
 
 
