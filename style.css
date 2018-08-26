@@ -22,16 +22,16 @@ body::-webkit-scrollbar-thumb {
 #title {
 	font-weight: bolder;
 	color: white;
-	font-size: 40px;
-	line-height: 32px;
+	font-size: 30px;
+	line-height: 24px;
 	margin-top: 20px;
 	text-shadow: 0px 0px 3px black;
 }
-#title:hover {
+/*#title:hover {
 	transform: scale(1.1,1.1); 
 	transition-timing-function: ease-in-out;
 	transition: 0.5s;
-}
+}*/
 /*-------------------------------------------------------------*/
 .navbar-light .navbar-toggler {
     border-radius: 4px;
@@ -82,8 +82,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .carousel-indicators li.active {
-	background-color: #E34A52;
-	background-color: #C3DD34;
+	background-color: #EC334D;
 }
 /*-------------------------------------------------------------*/
 #wrapper {
@@ -160,6 +159,7 @@ body::-webkit-scrollbar-thumb {
 #glow {
 	color: #E34A52;
 	font-size: 24px;
+	text-align: center;
 }
 .close {
 	color: white;
@@ -177,9 +177,6 @@ body::-webkit-scrollbar-thumb {
     background: #ff0084;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
 }
 
 .name-image {
@@ -250,13 +247,17 @@ background: linear-gradient(to top, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Fir
 /*-------------------------------------------------------------*/
 .watch-video {
 	border: 9px solid white;
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 }
-.video {
-	background-color: white;
-	color: #E34A52;
-	font-size: 30px;
+iframe {
+	background-image: url('alt.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+	/*z-index: -10;*/
 }
+
 /*-------------------------------------------------------------*/
 .spacing {
 	/*padding-left: 15px;*/
