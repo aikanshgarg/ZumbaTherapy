@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	background-image: url('zumba.webp');
 	color: white;
+	font-family: 'Baloo Tammudu', cursive;
 }
 body::-webkit-scrollbar {
     width: 0.6em;
@@ -23,15 +24,39 @@ body::-webkit-scrollbar-thumb {
 	font-weight: bolder;
 	color: white;
 	font-size: 30px;
-	line-height: 24px;
+	line-height: 26px;
 	margin-top: 20px;
 	text-shadow: 0px 0px 3px black;
+	font-family: 'Baloo Tammudu', cursive;
 }
-/*#title:hover {
-	transform: scale(1.1,1.1); 
-	transition-timing-function: ease-in-out;
-	transition: 0.5s;
-}*/
+.glow {
+-webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #fff;
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+.glow:hover {
+	color: white;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes neon {
+  from {
+  	/*color: #ff0080;*/
+    text-shadow: 0 0 1px #ff0080, 0 0 10px #fff, 0 0 30px #ff0080, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #ff0080, 0 0 100px #fff, 0 0 10px #fff;
+  }
+  to {
+    color: #FF1177;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #fff, 0 0 75px #ff0080;
+  }
+}
+
+
 /*-------------------------------------------------------------*/
 .navbar-light .navbar-toggler {
     border-radius: 4px;
@@ -62,8 +87,9 @@ body::-webkit-scrollbar-thumb {
 }
 .down{
 	color: white;
+	padding-top: 10px;
 	font-size: 20px;
-	font-family: "anton", serif;
+	/*font-family: "anton", serif;*/
 	font-weight: bolder;
 }
 .down::after, .down.active{
@@ -127,7 +153,7 @@ body::-webkit-scrollbar-thumb {
 
 .btn {
 	color: #E34A52;
-	font: normal normal normal 18px/1.4em verdana,geneva,sans-serif;
+	/*font: normal normal normal 18px/1.4em verdana,geneva,sans-serif;*/
 	background-color: white;
 	padding: 5px;
 	cursor: pointer;
@@ -196,7 +222,7 @@ background: linear-gradient(to top, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Fir
 	font-size: 30px;
 	line-height: 27px;
 	color:  #E34A52;
-	font-family: "anton", sans-serif;
+	/*font-family: "anton", sans-serif;*/
 	text-shadow: 0px 0px 0.5px black;
 }
 #events {
