@@ -2,7 +2,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background-image: url('zumba.webp');
+	background-image: url('bg.png');
 	color: white;
 	font-family: 'Baloo Tammudu', cursive;
 }
@@ -30,13 +30,13 @@ body::-webkit-scrollbar-thumb {
 	font-family: 'Baloo Tammudu', cursive;
 }
 .glow {
--webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+-webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
   color: #fff;
-  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon 1.5s ease-in-out infinite alternate;
-  animation: neon 1.5s ease-in-out infinite alternate;
+  -webkit-animation: neon 0.9s ease-in-out infinite alternate;
+  -moz-animation: neon 0.9s ease-in-out infinite alternate;
+  animation: neon 0.9s ease-in-out infinite alternate;
 }
 .glow:hover {
 	color: white;
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 @-webkit-keyframes neon {
   from {
   	/*color: #ff0080;*/
-    text-shadow: 0 0 1px #ff0080, 0 0 10px #fff, 0 0 30px #ff0080, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #ff0080, 0 0 100px #fff, 0 0 10px #fff;
+    text-shadow: 0px 0px 3px black;
   }
   to {
     color: #FF1177;
